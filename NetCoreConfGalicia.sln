@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlateRecognitionBot", "Plat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LUISBot", "LUISBot\LUISBot.csproj", "{F9A51122-8838-482D-8399-545874CE4DAB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContentModerator", "ContentModerator\ContentModerator\ContentModerator.csproj", "{78F74DE8-4304-44C0-B14F-7984B036E5A2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{F9A51122-8838-482D-8399-545874CE4DAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9A51122-8838-482D-8399-545874CE4DAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9A51122-8838-482D-8399-545874CE4DAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78F74DE8-4304-44C0-B14F-7984B036E5A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78F74DE8-4304-44C0-B14F-7984B036E5A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78F74DE8-4304-44C0-B14F-7984B036E5A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78F74DE8-4304-44C0-B14F-7984B036E5A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
