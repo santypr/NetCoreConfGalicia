@@ -1,0 +1,47 @@
+Autocorrect typos, check for matching terms, PII, and classify.
+{
+  "OriginalText": " You are a bitch You're son of a hooker Your mother fucker",
+  "NormalizedText": " You   bitch You're son   hooker Your mother fucker",
+  "AutoCorrectedText": " You are a bitch You're son of a hooker Your mother fucker",
+  "Misrepresentation": null,
+  "Classification": {
+    "Category1": {
+      "Score": 0.53922903537750244
+    },
+    "Category2": {
+      "Score": 0.12733995914459229
+    },
+    "Category3": {
+      "Score": 0.98799997568130493
+    },
+    "ReviewRecommended": true
+  },
+  "Status": {
+    "Code": 3000,
+    "Description": "OK",
+    "Exception": null
+  },
+  "PII": null,
+  "Language": "eng",
+  "Terms": [
+    {
+      "Index": 7,
+      "OriginalIndex": 11,
+      "ListId": 0,
+      "Term": "bitch"
+    },
+    {
+      "Index": 38,
+      "OriginalIndex": 45,
+      "ListId": 0,
+      "Term": "mother fucker"
+    },
+    {
+      "Index": 45,
+      "OriginalIndex": 52,
+      "ListId": 0,
+      "Term": "fucker"
+    }
+  ],
+  "TrackingId": "WE_ibiza_4a39c76e-4c39-4c49-b263-62e46d4311f0_ContentModerator.S0_17084eb7-5208-4b32-9546-27c6648aa3bd"
+}

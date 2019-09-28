@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "Console.Moderator": {
+      "commandName": "Project",
+      "workingDirectory": "C:\\Dev\\santiagoporras\\NetCoreConfGalicia\\Console.Moderator",
+      "environmentVariables": {
+        "CONTENT_MODERATOR_ENDPOINT": "https://westeurope.api.cognitive.microsoft.com",
+        "CONTENT_MODERATOR_SUBSCRIPTION_KEY": "d425bc7f8a9245cc90366ecca893f74e"
+      }
+    }
+  }
+}

@@ -3,17 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29230.47
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecommendationBot", "RecommendationBot\RecommendationBot.csproj", "{D3690E1F-B870-41BC-8695-7536C4BA1D9C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecommendationBot", "RecommendationBot\RecommendationBot.csproj", "{D3690E1F-B870-41BC-8695-7536C4BA1D9C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QnABot", "QnABot\QnABot.csproj", "{68BED798-718F-490A-A800-41B5931C89EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QnABot", "QnABot\QnABot.csproj", "{68BED798-718F-490A-A800-41B5931C89EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpeakerRecognitionBot", "SpeakerRecognitionBot\SpeakerRecognitionBot.csproj", "{E90B94F9-E09A-4040-9570-269D5159F525}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpeakerRecognitionBot", "SpeakerRecognitionBot\SpeakerRecognitionBot.csproj", "{E90B94F9-E09A-4040-9570-269D5159F525}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlateRecognitionBot", "PlateRecognitionBot\PlateRecognitionBot.csproj", "{AD083919-D86A-4D59-B3D5-D76B88B61731}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlateRecognitionBot", "PlateRecognitionBot\PlateRecognitionBot.csproj", "{AD083919-D86A-4D59-B3D5-D76B88B61731}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LUISBot", "LUISBot\LUISBot.csproj", "{F9A51122-8838-482D-8399-545874CE4DAB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LUISBot", "LUISBot\LUISBot.csproj", "{F9A51122-8838-482D-8399-545874CE4DAB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContentModerator", "ContentModerator\ContentModerator\ContentModerator.csproj", "{78F74DE8-4304-44C0-B14F-7984B036E5A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContentModerator", "ContentModerator\ContentModerator\ContentModerator.csproj", "{78F74DE8-4304-44C0-B14F-7984B036E5A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test Consoles", "Test Consoles", "{EDFDEDA6-DD11-49EC-BB8E-3FA195BEFD80}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Console.Moderator", "Console.Moderator\Console.Moderator.csproj", "{3417AF14-4D9E-4B8C-AB30-79DCD43F8672}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,9 +49,16 @@ Global
 		{78F74DE8-4304-44C0-B14F-7984B036E5A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78F74DE8-4304-44C0-B14F-7984B036E5A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78F74DE8-4304-44C0-B14F-7984B036E5A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3417AF14-4D9E-4B8C-AB30-79DCD43F8672}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3417AF14-4D9E-4B8C-AB30-79DCD43F8672}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3417AF14-4D9E-4B8C-AB30-79DCD43F8672}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3417AF14-4D9E-4B8C-AB30-79DCD43F8672}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3417AF14-4D9E-4B8C-AB30-79DCD43F8672} = {EDFDEDA6-DD11-49EC-BB8E-3FA195BEFD80}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {64E24CE8-849A-4EF6-8593-864780D9F7B5}
